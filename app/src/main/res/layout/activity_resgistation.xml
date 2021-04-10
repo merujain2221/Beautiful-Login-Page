@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resgistation"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="50dp"
+        android:background="@drawable/logo" />
+
+
+    <EditText
+        android:id="@+id/fullname"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Full Name"
+    android:textSize="25sp"
+    android:textColorHint="@color/colorAccent"
+    android:layout_marginTop="50dp"
+        android:textColor="@color/colorAccent"
+
+        />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:textSize="25sp"
+        android:textColorHint="@color/colorAccent"
+        android:textColor="@color/colorAccent"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="25sp"
+        android:textColorHint="@color/colorAccent"
+        android:textColor="@color/colorAccent"
+
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="25sp"
+        android:textColorHint="@color/colorAccent"
+        android:textColor="@color/colorAccent"
+
+        />
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_layout"
+        android:text="REGISTER USER"
+        android:textColor="#DDE3E3"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
